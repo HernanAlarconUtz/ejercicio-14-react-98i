@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Esteban",
+      "lastname": "Quito",
+      "username": "estebanquito",
+      "password": "Aa1234",
+      "isAdmin": true
+    }
+  ]
+}
