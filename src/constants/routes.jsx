@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import PublicView from "../views/routing/PublicView";
 import PrivateView from "../views/routing/PrivateView";
 import RootView from "../views/routing/RootView";
+import LoginView from "../views/LoginView";
 
 export const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ export const router = createBrowserRouter([
           },
           {
             path: "login",
-            element: <p>Login</p>,
+            element: <LoginView />,
           },
           {
             path: "Register",
